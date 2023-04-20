@@ -1,0 +1,165 @@
+html {
+  background-color: black;
+}
+
+.navbar-toggler-icon:active,
+.btn-close:active {
+  border: 2px solid var(--bs-warning-border-subtle);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.appstore-cta img {
+  max-height: 48px;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 0px 20px;
+}
+
+.app-screen {
+  flex-grow: 1;
+}
+
+.app-screen-even {
+  flex-grow: 1.2;
+}
+
+img {
+  max-width: 100%;
+}
+
+.new-card--img {
+  max-width: 64px;
+  object-fit: contain;
+  overflow: hidden;
+}
+
+.ex-card--img {
+  max-width: 280px;
+}
+
+.ex-card--caption {
+  max-width: 320px;
+  font-size: small;
+}
+
+.ex-card--thumb {
+  max-width: 64px;
+}
+
+.re-card--img {
+  max-width: 320px;
+}
+
+.re-card--thumb {
+  max-width: 64px;
+}
+
+.text-secondary {
+  font-size: 14px;
+}
+.what-new {
+  max-width: 639px;
+}
+
+.expresso {
+  max-width: 1023px;
+}
+
+.ex-section--body {
+  width: 100%;
+}
+
+.results {
+  max-width: 767px;
+}
+
+.scales-card {
+  max-width: 767px;
+}
+
+.carousel-card {
+  width: 400px;
+  height: 100%;
+}
+
+.track--1 {
+  height: 220px;
+  animation-name: myanimation;
+  animation-duration: 90s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+.track--2 {
+  top: 230px;
+  height: 190px;
+  animation: myanimation 90s alternate-reverse linear infinite;
+  padding-bottom: 5px;
+}
+.track--3 {
+  top: 425px;
+  height: 220px;
+  animation: myanimationlast 90s alternate linear infinite;
+}
+
+@keyframes myanimation {
+  0% {
+    left: -2000px;
+  }
+  100% {
+    left: -250px;
+  }
+}
+
+@keyframes myanimationlast {
+  0% {
+    left: -1800px;
+  }
+  100% {
+    left: -0px;
+  }
+}
+
+.customer {
+  max-width: 600px;
+}
+
+.customer img {
+  height: 30px;
+  opacity: 0.5;
+}
+
+.customer img:hover {
+  opacity: 1;
+}
+
+.review {
+  height: 1000px;
+}
+
+.social {
+  width: 35px;
+  filter: brightness(0) invert(1);
+  display: inline-block;
+}
+
+.social img {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav {
+    background-color: black;
+  }
+}
