@@ -259,7 +259,9 @@ img {
 
   .main-title {
     margin-top: 130px;
-    font-size: 48px !important;
+    font-size: 60px !important;
+    max-width: 1024px;
+    text-align: center;
   }
 
   .hero-text {
