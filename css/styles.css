@@ -244,6 +244,10 @@ img {
     height: 64px !important;
   }
 
+  .container-fluid {
+    max-width: 1216px;
+  }
+
   .hero {
     display: flex;
     flex-direction: column;
