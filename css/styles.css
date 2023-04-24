@@ -183,5 +183,53 @@ img {
 @media (min-width: 768px) {
   .navbar-nav {
     background-color: black;
+    gap: 20px;
+  }
+
+  .nav-item .btn-warning {
+    background-color: white;
+    color: black !important;
+    border-color: white;
+  }
+
+  .container-fluid {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .hero-cta {
+    margin-top: 40px;
+  }
+
+  .results {
+    max-width: 1216px;
+  }
+
+  .re-section--body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .re-card {
+    width: 348px;
+    max-width: 596px;
+    flex-grow: 1;
+  }
+
+  .card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    min-height: 338px;
+  }
+
+  .scales-card--list-pad {
+    padding-bottom: 42px;
   }
 }
