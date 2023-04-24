@@ -110,7 +110,7 @@ img {
 .track--3 {
   top: 425px;
   height: 220px;
-  animation: myanimationlast 200s alternate linear infinite;
+  animation: myanimationlast 250s alternate linear infinite;
 }
 
 @keyframes myanimation {
