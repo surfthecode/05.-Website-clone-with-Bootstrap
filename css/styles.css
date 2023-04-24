@@ -95,7 +95,7 @@ img {
 .track--1 {
   height: 220px;
   animation-name: myanimation;
-  animation-duration: 90s;
+  animation-duration: 200s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: linear;
@@ -104,13 +104,13 @@ img {
 .track--2 {
   top: 230px;
   height: 190px;
-  animation: myanimation 90s alternate-reverse linear infinite;
+  animation: myanimation 200s alternate-reverse linear infinite;
   padding-bottom: 5px;
 }
 .track--3 {
   top: 425px;
   height: 220px;
-  animation: myanimationlast 90s alternate linear infinite;
+  animation: myanimationlast 200s alternate linear infinite;
 }
 
 @keyframes myanimation {
@@ -118,7 +118,7 @@ img {
     left: -2000px;
   }
   100% {
-    left: -250px;
+    left: -650px;
   }
 }
 
@@ -171,6 +171,7 @@ img {
     justify-content: flex-start;
     align-items: flex-start;
     gap: 15px;
+    max-width: 1216px;
   }
 
   .new-card {
@@ -231,5 +232,137 @@ img {
 
   .scales-card--list-pad {
     padding-bottom: 42px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .navbar {
+    padding-top: 15px;
+  }
+
+  .nav-logo {
+    height: 64px !important;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 32px !important;
+    padding-right: 32px !important;
+  }
+
+  .main-title {
+    margin-top: 130px;
+    font-size: 48px !important;
+  }
+
+  .hero-text {
+    max-width: 768px;
+    font-size: 24px !important;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .mobile-app {
+    margin-top: 130px !important;
+  }
+
+  .out-cols {
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+  }
+
+  .inner-col {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  .what-new {
+    margin-top: 200px !important;
+  }
+
+  .expresso {
+    max-width: 1216px;
+  }
+
+  .new-pre-title,
+  .expresso-pre-title {
+    font-size: 16px;
+  }
+
+  .new-title,
+  .expresso-title {
+    font-size: 60px !important;
+  }
+
+  .ex-section--body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    width: 100%;
+  }
+
+  .ex-card {
+    width: 438px;
+    height: 608px !important;
+    max-width: 596px;
+    flex-grow: 1;
+    margin-bottom: 0 !important;
+  }
+
+  .ex-card--img-one img {
+    margin-top: 50px;
+  }
+
+  .ex-card--head h3,
+  .re-card--head h3 {
+    font-size: 36px;
+  }
+
+  .ex-card--head p,
+  .re-card--head p {
+    font-size: 16px;
+  }
+
+  .ex-card--last,
+  .re-card--last {
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+  }
+
+  .re-card {
+    height: 640px;
+  }
+
+  .review h2 {
+    font-size: 60px !important;
+  }
+
+  footer {
+    margin: auto;
+    max-width: 1216px;
+  }
+
+  .footer-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .left-col {
+    width: 500px;
+  }
+
+  .row-collapse {
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: center;
   }
 }
